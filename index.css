@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Montserrat:wght@300;400;500;600&family=Pinyon+Script&display=swap');
+
+/* Custom Cursor */
+body {
+  cursor: crosshair;
+  background-color: #121212;
+  color: #F5F5F5;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* Text Selection */
+::selection {
+  background: rgba(212, 175, 55, 0.3);
+  color: #fff;
+}
